@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cbs Lucky Draw 2025</title>
+  <style>
+    :root {
+      --orange: #ef7d00;
+      --white: #fff;
+      --dark: #222;
+      --bulb-on: #ffe97f;
+      --bulb-off: #b35b00;
+    }
+
+    body {
+      background: radial-gradient(circle at center, #ef7d00, #d66700, #b35400);
+      color: var(--white);
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      text-shadow: 0 3px 10px rgba(0,0,0,0.3);
+      margin-bottom: 40px;
+    }
+
+    .machine-frame {
+      position: relative;
+      padding: 40px;
+      border: 25px solid var(--orange);
+      border-radius: 30px;
+      background: rgba(0,0,0,0.3);
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+      width: fit-content;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .machine-wrapper {
+      position: relative;
+      display: inline-block;
+    }
+
+    .bulb-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .bulb {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--bulb-off);
+      box-shadow: 0 0 8px var(--bulb-off);
+      animation: bulbBlink 1.2s infinite alternate;
+      z-index: 11;
+    }
+
+    @keyframes bulbBlink {
+      0%, 100% {
+        background: var(--bulb-on);
+        box-shadow:
+          0 0 10px var(--bulb-on),
+          0 0 20px var(--bulb-on),
+          0 0 40px var(--bulb-on),
+          0 0 60px var(--bulb-on);
+        transform: scale(1.2);
+      }
+      50% {
+        background: var(--bulb-off);
+        box-shadow: 0 0 5px var(--bulb-off);
+        transform: scale(1);
+      }
+    }
+
+    .slot-machine {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .reel {
+      background: rgba(255,255,255,0.15);
+      border: 4px solid var(--orange);
+      border-radius: 20px;
+      width: 220px;
+      height: 150px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: inset 0 0 25px rgba(0,0,0,0.3);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--white);
+      text-shadow: 0 0 6px rgba(0,0,0,0.3);
+      position: relative;
+    }
+
+    .reel-content {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: translateY(0); }
+      to { transform: translateY(-100%); }
+    }
+
+    button {
+      background: var(--white);
+      color: var(--orange);
+      font-size: 1.3rem;
+      font-weight: 700;
+      padding: 15px 40px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: 0.3s;
+      margin-top: 40px;
+    }
+
+    button:hover {
+      background: #ffe6d1;
+      transform: scale(1.05);
+    }
+
+    @keyframes flicker {
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        opacity: 1;
+        text-shadow: 0 0 20px #fff, 0 0 40px #ffb347, 0 0 60px #ff6a00;
+      }
+      20%, 24%, 55% {
+        opacity: 0.4;
+        text-shadow: none;
+      }
+    }
+
+    .winner-flicker {
+      animation: flicker 1.5s linear infinite;
+    }
+
+    /* Popup */
+    #popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 20;
+    }
+
+    .popup-content {
+      background: var(--white);
+      color: var(--dark);
+      padding: 30px 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 80%;
+      animation: fadeIn 0.3s ease-in;
+      position: relative;
+    }
+
+    .popup-content h2 {
+      color: var(--orange);
+      margin-bottom: 10px;
+    }
+
+    .popup-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .ai-note {
+      font-size: 0.85rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    .close-btn {
+      background: var(--orange);
+      color: var(--white);
+      border: none;
+      border-radius: 10px;
+      padding: 10px 25px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    footer {
+      margin-top: 20px;
+      font-weight: 600;
+    }
+
+    #winnerReason {
+      font-size: 1.4rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 cbs Lucky Draw 2025 🎉</h1>
+
+  <div class="machine-wrapper">
+    <div class="machine-frame" id="machineFrame">
+      <div class="slot-machine">
+        <div class="reel" id="reel1"></div>
+        <div class="reel" id="reel2"></div>
+        <div class="reel" id="reel3"></div>
+      </div>
+    </div>
+    <div class="bulb-layer" id="bulbLayer"></div>
+  </div>
+
+  <button id="drawBtn">🎲 START DRAW</button>
+
+  <div id="popup">
+    <div class="popup-content">
+      <h2 id="winnerName"></h2>
+      <p id="winnerRole"></p>
+      <pre id="winnerReason" style="white-space: pre-wrap;"></pre>
+      <div class="popup-footer">
+        <p class="ai-note">🤖 Content generated by AI</p>
+        <button class="close-btn" id="closeBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>Powered by cbs AI</footer>
+
+  <script src="ai_reasons.js"></script>
+  <script>
+    const reels = [document.getElementById("reel1"), document.getElementById("reel2"), document.getElementById("reel3")];
+    const btn = document.getElementById("drawBtn");
+    const popup = document.getElementById("popup");
+    const winnerName = document.getElementById("winnerName");
+    const winnerRole = document.getElementById("winnerRole");
+    const winnerReason = document.getElementById("winnerReason");
+    const closeBtn = document.getElementById("closeBtn");
+
+    let remaining = [...ai_reasons];
+    const frame = document.getElementById("machineFrame");
+    const bulbLayer = document.getElementById("bulbLayer");
+
+    const bulbsTop = 16, bulbsBottom = 16, bulbsSide = 6;
+    const inset = 5, bulbSize = 14;
+
+    function createBulb(x, y) {
+      const b = document.createElement("div");
+      b.classList.add("bulb");
+      b.style.left = `${x}px`;
+      b.style.top = `${y}px`;
+      bulbLayer.appendChild(b);
+    }
+
+    const frameWidth = frame.offsetWidth;
+    const frameHeight = frame.offsetHeight;
+
+    for (let i = 0; i < bulbsTop; i++) {
+      const x = ((i + 0.5) / bulbsTop) * (frameWidth - bulbSize * 1.5);
+      createBulb(x, inset);
+    }
+    for (let i = 0; i < bulbsBottom; i++) {
+      const x = ((i + 0.5) / bulbsBottom) * (frameWidth - bulbSize * 1.5);
+      const y = frameHeight - inset - bulbSize;
+      createBulb(x, y);
+    }
+    for (let i = 0; i < bulbsSide; i++) {
+      const y = ((i + 0.5) / bulbsSide) * (frameHeight - bulbSize * 1.5);
+      createBulb(inset, y);
+      const x = frameWidth - inset - bulbSize;
+      createBulb(x, y);
+    }
+
+    btn.addEventListener("click", () => {
+      if (remaining.length === 0) {
+        alert("🎊 All winners have been drawn!");
+        return;
+      }
+
+      btn.disabled = true;
+      const spinSound = document.getElementById("spinSound");
+      const stopSound = document.getElementById("stopSound");
+      const winSound = document.getElementById("winSound");
+
+      spinSound.currentTime = 0;
+      spinSound.loop = true;
+      spinSound.play();
+
+      const winnerIndex = Math.floor(Math.random() * remaining.length);
+      const winner = remaining[winnerIndex];
+
+      reels.forEach((reel, i) => {
+        reel.innerHTML = "";
+        const reelContent = document.createElement("div");
+        reelContent.classList.add("reel-content");
+        let html = "";
+        for (let j = 0; j < 15; j++) {
+          const randName = ai_reasons[Math.floor(Math.random() * ai_reasons.length)].Name;
+          html += `<div>${randName}</div>`;
+        }
+        reelContent.innerHTML = html;
+        reel.appendChild(reelContent);
+        reelContent.style.animationDuration = `${1 + i * 0.2}s`;
+      });
+
+      setTimeout(() => {
+        spinSound.pause();
+        stopSound.currentTime = 0;
+        stopSound.play();
+
+        reels.forEach((reel) => {
+          reel.innerHTML = `<div class="winner-flicker">${winner.Name}</div>`;
+        });
+        remaining.splice(winnerIndex, 1);
+
+        setTimeout(() => {
+          winSound.currentTime = 0;
+          winSound.play();
+
+          winnerName.textContent = `🏆 ${winner.Name}`;
+          winnerRole.textContent = winner.Role;
+          winnerReason.textContent = winner.Reason;
+          popup.style.display = "flex";
+          btn.disabled = false;
+        }, 1000);
+      }, 3200);
+    });
+
+    closeBtn.addEventListener("click", () => popup.style.display = "none");
+  </script>
+
+  <!-- 🎵 Sound effects -->
+  <audio id="spinSound" src="spinSound.mp3"></audio>
+  <audio id="stopSound" src="winSound.mp3"></audio>
+  <audio id="winSound" src="winSound.mp3"></audio>
+</body>
+</html>
