@@ -310,10 +310,11 @@
       btn.disabled = true;
       const spinSound = document.getElementById("spinSound");
       const stopSound = document.getElementById("stopSound");
-      const winSound = document.getElementById("winSound");
+
 
       spinSound.currentTime = 0;
       spinSound.loop = true;
+      spinSound.volume = 0.2;
       spinSound.play();
 
       const winnerIndex = Math.floor(Math.random() * remaining.length);
@@ -337,6 +338,7 @@
         spinSound.pause();
         stopSound.currentTime = 0;
         stopSound.play();
+        
 
         reels.forEach((reel) => {
           reel.innerHTML = `<div class="winner-flicker">${winner.Name}</div>`;
@@ -344,9 +346,6 @@
         remaining.splice(winnerIndex, 1);
 
         setTimeout(() => {
-          winSound.currentTime = 0;
-          winSound.play();
-
           winnerName.textContent = `🏆 ${winner.Name}`;
           winnerRole.textContent = winner.Role;
           winnerReason.textContent = winner.Reason;
@@ -362,6 +361,5 @@
   <!-- 🎵 Sound effects -->
   <audio id="spinSound" src="spinSound.mp3"></audio>
   <audio id="stopSound" src="winSound.mp3"></audio>
-  <audio id="winSound" src="winSound.mp3"></audio>
 </body>
 </html>
