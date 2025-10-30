@@ -6,7 +6,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Filipino",
     "Division":"ISU",
-    "Reason":"Here's a short and witty announcement:\n\n\"Meet Aaron James Bustamante, our lucky SAP-saver! He won the coveted ISU draw in SIS-PH, proving that even in ABAP land, luck is on his side. Congrats, Aaron - may your code be error-free and your database always up-to-date!\""
+    "Reason":"Here's a short and witty announcement:\n\n\"Meet Aaron James Bustamante, our lucky SAP-saver! He won the coveted ISU draw in SIS-PH, proving that even in ISU land, luck is on his side. Congrats, Aaron - may your code be error-free and your database always up-to-date!\""
   },
   {
     "Name":"Aaron Lok Yee Hung",
@@ -672,7 +672,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Malaysian",
     "Division":"SLT PE",
-    "Reason":"\"Lucky winner alert! Congratulations to Iman bin Samsudin, the master of ABAP-ilities! He's won our SAP-tacular lucky draw! Come celebrate with us and let's raise a glass (of virtual punch) to our champion – he's truly the 'code' to success!\""
+    "Reason":" SLT PE = Super Lucky Talent, Perfectly Executed! 🎉Iman bin Samsudin, our Malaysian Associate Solution Architect from cbs Malaysia’s SLT PE division, just architected his way into a lucky draw win! His blueprint clearly includes a layer of good fortune!"
   },
   {
     "Name":"Iman Munirah Binti Irwan",
@@ -942,7 +942,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysia",
     "Division":"ERP - Logistic (MM)",
-    "Reason":"\"Lucky draw winner Koh Hui Chee has 'ware' made! Congratulations on her win! Her expertise in ERP - Logistic (MM) division is the 'core' of our success. Enjoy your prize, and don't let it go down the 'abap' road!\""
+    "Reason":"Koh Hui Chee, our stellar Malaysian Senior Consultant from cbs Malaysia’s ERP - Logistic (MM) division, just material-managed her way into a lucky draw win! Her luck is clearly well-stocked and perfectly sourced!"
   },
   {
     "Name":"Koh Zhi Yung, Ryan",
@@ -978,7 +978,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Malaysian",
     "Division":"ERP - FICO",
-    "Reason":"\"Lucky Leaw! Our Malaysian superstar has hit the 'ABAP' jackpot! Congratulations on winning our lucky draw! May your ABAP skills continue to be the 'code' to success!\""
+    "Reason":"🎉 FICO Fun from Singapore! 🎉Leaw Jian Xiong, our Malaysian Senior Consultant from cbs Singapore’s ERP - FICO division, just posted a lucky draw win that’s perfectly balanced—just like his financial statements! His luck? Fully reconciled and audit-approved! "
   },
   {
     "Name":"Lee Chai Fong",
@@ -2031,7 +2031,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"SLT - FI",
-    "Reason":"Here's the announcement:\n\n\"Big Congrats to Tan Wenn Tyan, our lucky draw winner from SLT - FI division! You've 'ABAP'-ly won our hearts with your skills & dedication! Enjoy your prize & kudos to all our talented Malaysians!\""
+    "Reason":"Tan Wenn Tyan, our Malaysian Analyst from cbs Malaysia’s SLT - FI division, just analyzed her way into a lucky draw win! Her luck is clearly as precise as her financial insights!"
   },
   {
     "Name":"TAN YEN TA",
@@ -2148,7 +2148,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Japan",
     "Division":"PMO",
-    "Reason":"\"Big congratulations to Tomomi Yokoi, our lucky draw winner! Looks like she's 'abapped' into an all-expenses-paid trip for two! (Sorry, SAP puns!) Wishing you a fantastic adventure, Tomomi! CBS Japan team sends love and best wishes!\""
+    "Reason":"\"Tomomi Yokoi, our fantastic Consultant from cbs Japan’s PMO division, just planned her way into a lucky draw win! Her strategy? Precision, positivity, and a dash of SAP-er luck from the Land of the Rising Win!\""
   },
   {
     "Name":"Tong Jing",
