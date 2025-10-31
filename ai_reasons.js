@@ -51,7 +51,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"SLT - FI",
-    "Reason":"Here's the announcement:\n\n\"Attention all CBS Malaysia team members!\n\nWe're thrilled to announce our very own AINUR UMAIRAH BINTI ABDUL HAKIM from SLT - FI division as our lucky draw winner! It seems she's 'coding' to a happier future. Congratulations, Ainur!\"\n\nLet me know if you'd like any modifications or changes!"
+    "Reason":"Here's the announcement:\n\n\"Attention all cbs Malaysia team members!\n\nWe're thrilled to announce our very own AINUR UMAIRAH BINTI ABDUL HAKIM from SLT - FI division as our lucky draw winner! It seems she's 'coding' to a happier future. Congratulations, Ainur!\"\n\nLet me know if you'd like any modifications or changes!"
   },
   {
     "Name":"AISHWARYA C J",
@@ -69,7 +69,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Bangladeshi",
     "Division":"ERP - Logistic (MM)",
-    "Reason":"\"ALAM MD TASKIN is our new 'Master Data' winner! Congratulations on being the lucky draw winner from CBS Japan's ERP - Logistic (MM) division! You've successfully navigated the MM landscape to reach this goal. Cheers to you, Alam!\""
+    "Reason":"\"ALAM MD TASKIN is our new 'Master Data' winner! Congratulations on being the lucky draw winner from cbs Japan's ERP - Logistic (MM) division! You've successfully navigated the MM landscape to reach this goal. Cheers to you, Alam!\""
   },
   {
     "Name":"Alexander Campbell Bevan Bourne",
@@ -240,7 +240,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Japanese",
     "Division":"PMO",
-    "Reason":"\"Ladies and gentlemen, we're 'configuring' for celebration! Congratulations, Mai Kristine from CBS Japan's PMO division, is our lucky draw winner! Her skills are now the 'standard version' of awesomeness in our office!\""
+    "Reason":"\"Ladies and gentlemen, we're 'configuring' for celebration! Congratulations, Mai Kristine from cbs Japan's PMO division, is our lucky draw winner! Her skills are now the 'standard version' of awesomeness in our office!\""
   },
   {
     "Name":"Bryan Fernando",
@@ -276,7 +276,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"FILIPINO",
     "Division":"ERP - Logistic (MM)",
-    "Reason":"\"Attention all CBSians! We're thrilled to announce our very own Katherine Patawaran as the lucky draw winner! Looks like she's 'accounting' for her good fortune. Congratulations, Katherine! Enjoy your prize and may it bring you a 'balanced' work-life.\""
+    "Reason":"\"Attention all cbsians! We're thrilled to announce our very own Katherine Patawaran as the lucky draw winner! Looks like she's 'accounting' for her good fortune. Congratulations, Katherine! Enjoy your prize and may it bring you a 'balanced' work-life.\""
   },
   {
     "Name":"Chan Chen Yuan",
@@ -339,7 +339,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"CP - Cloud Platform",
-    "Reason":"\"Big congratulations to Chong Yoon Lee, our Cloudy with a Chance of Winning! As the lucky draw winner, she'll get to 'code' her own getaway - a fun trip courtesy of cbs Consulting Company!\""
+    "Reason":"\"Big congratulations to Chong Yoon Lee, our Cloudy with a Chance of Winning! As the lucky draw winner, she'll get to 'code' her own getaway - a fun trip courtesy of cbs Consulting!\""
   },
   {
     "Name":"Chou Jia Cheng",
@@ -384,7 +384,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Malaysian",
     "Division":"BI and BPA",
-    "Reason":"Here's the announcement:\n\n\"Big win for Chye Kah Kien! Our Malaysian Committee star from BI & BPA division is the lucky draw winner! Looks like he's now the 'value-added' champion of CBS Malaysia - congrats, Chye!\""
+    "Reason":"Here's the announcement:\n\n\"Big win for Chye Kah Kien! Our Malaysian Committee star from BI & BPA division is the lucky draw winner! Looks like he's now the 'value-added' champion of cbs Malaysia - congrats, Chye!\""
   },
   {
     "Name":"Dania Ariffin Binti Mohd Hussain",
@@ -726,7 +726,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Filipino",
     "Division":"Corporate Sales",
-    "Reason":"\"Lucky you, Janice! You've won the coveted SAP Award of Awesomeness! Congratulations on being the 'system'-atically chosen winner in our corporate lucky draw! Enjoy your prize, and remember: at CBS, we're always 'table-ing' greatness!\""
+    "Reason":"\"Lucky you, Janice! You've won the coveted SAP Award of Awesomeness! Congratulations on being the 'system'-atically chosen winner in our corporate lucky draw! Enjoy your prize, and remember: at cbs, we're always 'table-ing' greatness!\""
   },
   {
     "Name":"Jasmine Aliyah binti Mohd Amri",
@@ -1086,7 +1086,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"Change Management",
-    "Reason":"\"Ladies and gentlemen, we've got a deal-maker! Liu Wei Zi is the lucky winner of our draw! Congratulations on 'contracting' a winning smile. You're off to a SAP-tacular vacation, courtesy of CBS Consulting Company!\""
+    "Reason":"\"Ladies and gentlemen, we've got a deal-maker! Liu Wei Zi is the lucky winner of our draw! Congratulations on 'contracting' a winning smile. You're off to a SAP-tacular vacation, courtesy of cbs Consulting Company!\""
   },
   {
     "Name":"LOH YING CHEN",
@@ -1203,7 +1203,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Indian",
     "Division":"SLT - FI",
-    "Reason":"\"Hey team! We've got a 'code' winner - Mohammed Talha Vatyapuri from SLT-FI division is our lucky draw winner! Congratulations! You'll get to 'program' your dream getaway with CBS India. Keep coding, Mohammed, you're the MVP!\""
+    "Reason":"\"Hey team! We've got a 'code' winner - Mohammed Talha Vatyapuri from SLT-FI division is our lucky draw winner! Congratulations! You'll get to 'program' your dream getaway with cbs India. Keep coding, Mohammed, you're the MVP!\""
   },
   {
     "Name":"MOHD MOEZ SHA ARANI BIN ANUAR",
@@ -1230,7 +1230,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"China",
     "Division":"GTS",
-    "Reason":"Here's the announcement:\n\n\"Big congratulations to our fabulous MU DAN from CBS China! She's 'configuring' her day with a brand new prize - a fun getaway! Thanks for being an awesome SAP-rior (Prior to Absorption... just kidding, kind of!)!\""
+    "Reason":"Here's the announcement:\n\n\"Big congratulations to our fabulous MU DAN from cbs China! She's 'configuring' her day with a brand new prize - a fun getaway! Thanks for being an awesome SAP-rior (Prior to Absorption... just kidding, kind of!)!\""
   },
   {
     "Name":"MUHAMAD IZZUL IZZANI BIN ABU BAKAR",
@@ -1374,7 +1374,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"PMO",
-    "Reason":"Here's the announcement:\n\n\"Ladies and gentlemen, we have a 'sync'-tastic winner! Congratulations, Narinah Binti Mohammad Shah from our PMO division in Malaysia, you've won our lucky draw! We're thrilled to have you as part of our CBS family - cheers to you!\""
+    "Reason":"Here's the announcement:\n\n\"Ladies and gentlemen, we have a 'sync'-tastic winner! Congratulations, Narinah Binti Mohammad Shah from our PMO division in Malaysia, you've won our lucky draw! We're thrilled to have you as part of our cbs family - cheers to you!\""
   },
   {
     "Name":"Naushin Sana Mir Syed",
@@ -1482,7 +1482,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Indonesia",
     "Division":"ERP - FICO",
-    "Reason":"Here's the announcement:\n\n\"Ladies and gentlemen, we have a financial win! Meet Nova Suriani, our lucky draw winner from CBS Malaysia's ERP - FICO division! Congratulations, Nova! You've 'accounted' for an awesome prize. Cheers!\""
+    "Reason":"Here's the announcement:\n\n\"Ladies and gentlemen, we have a financial win! Meet Nova Suriani, our lucky draw winner from cbs Malaysia's ERP - FICO division! Congratulations, Nova! You've 'accounted' for an awesome prize. Cheers!\""
   },
   {
     "Name":"NUR ALIAH BATRISYIA BINTI MAWARDI",
@@ -1635,7 +1635,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"malaysian",
     "Division":"PMO",
-    "Reason":"Here's the announcement:\n\n\"Ladies and gentlemen of CBS Consulting Company Malaysia, we're thrilled to announce our lucky draw winner - Pang Wan Si! Congratulations on 'configuring' your luck just right! Enjoy your prize and may it bring you a year of seamless processes and smooth sailings!\""
+    "Reason":"Here's the announcement:\n\n\"Ladies and gentlemen of cbs Consulting Malaysia, we're thrilled to announce our lucky draw winner - Pang Wan Si! Congratulations on 'configuring' your luck just right! Enjoy your prize and may it bring you a year of seamless processes and smooth sailings!\""
   },
   {
     "Name":"PANG XINYI",
@@ -1806,7 +1806,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"SLT - FI",
-    "Reason":"\"Ladies and gentlemen, we have a 'transactional' success on our hands! Congratulations to Saw Wai Teng from the SLT - FI division in Malaysia, who's 'locked' in as our lucky draw winner! Well done, Sav!\"\n\n(Note: I've used SAP-related puns like \"transactional\" and \"locked\" to tie in with the SAP Consulting theme.)"
+    "Reason":"\"Ladies and gentlemen, we have a 'transactional' success on our hands! Congratulations to Saw Wai Teng from the SLT - FI division in Malaysia, who's 'locked' in as our lucky draw winner! Well done, Sav!\"\n\n(Note: I've used SAP-related puns like \"transactional\" and \"locked\" to tie in with the cbs Consulting theme.)"
   },
   {
     "Name":"See Sui Ni",
@@ -1923,7 +1923,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"AMS",
-    "Reason":"\" Congrats, Sarah! You're the 'code' winner of our lucky draw! As our AMS rockstar, you've got what it takes to 'aggregate' success. Enjoy your prize, Sarah - we're thrilled to have you as part of our #CBScrew!\""
+    "Reason":"\" Congrats, Sarah! You're the 'code' winner of our lucky draw! As our AMS rockstar, you've got what it takes to 'aggregate' success. Enjoy your prize, Sarah - we're thrilled to have you as part of our #cbscrew!\""
   },
   {
     "Name":"Sivanesan Vijaya Mohan",
@@ -1977,7 +1977,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Pakistani",
     "Division":"ERP - Logistic (PP)",
-    "Reason":"\"Attention all CBSites!\n\nWe're thrilled to announce Syed Faiyaz Hussain, our logistics whiz from Malaysia, as the lucky draw winner! Looks like he's 'configuring' his luck to be the best! Congrats, Syed - enjoy your well-deserved prize!\""
+    "Reason":"\"Attention all cbsites!\n\nWe're thrilled to announce Syed Faiyaz Hussain, our logistics whiz from Malaysia, as the lucky draw winner! Looks like he's 'configuring' his luck to be the best! Congrats, Syed - enjoy your well-deserved prize!\""
   },
   {
     "Name":"Syed Hassan Ahmed",
@@ -2139,7 +2139,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"German",
     "Division":"ERP - FICO",
-    "Reason":"Here is the announcement:\n\n\"Congratulations to Thomas Kuckuck, our ERP FICO rockstar! He's the 'accounting' champion of CBS Malaysia! We're thrilled he's won our lucky draw - now he gets to 'close the deal' on a fantastic prize!\""
+    "Reason":"Here is the announcement:\n\n\"Congratulations to Thomas Kuckuck, our ERP FICO rockstar! He's the 'accounting' champion of cbs Malaysia! We're thrilled he's won our lucky draw - now he gets to 'close the deal' on a fantastic prize!\""
   },
   {
     "Name":"Tomomi Yokoi",
@@ -2193,7 +2193,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"Business Intelligence and Analytics",
-    "Reason":"\"Attention all CBSians!\n\nWe're thrilled to announce the lucky winner of our recent draw: Vanitha from our Business Intelligence and Analytics team! Looks like she's 'data'-ly winning in life!\n\nCongrats, Vanitha! Enjoy your prize!\""
+    "Reason":"\"Attention all cbsians!\n\nWe're thrilled to announce the lucky winner of our recent draw: Vanitha from our Business Intelligence and Analytics team! Looks like she's 'data'-ly winning in life!\n\nCongrats, Vanitha! Enjoy your prize!\""
   },
   {
     "Name":"VARUN MENON CHELNAT",
@@ -2220,7 +2220,7 @@ const ai_reasons = [
     "Gender":"Male",
     "Nationality":"Vietnamese",
     "Division":"SLT - Logistic",
-    "Reason":"\"Lucky Hoang is the 'code' winner! Congratulations to our very own Vo Kha Quoc Hoang from SLT - Logistic division under CBS Malaysia! You've 'configured' yourself for success! Enjoy your prize and keep on 'coding' great work!\""
+    "Reason":"\"Lucky Hoang is the 'code' winner! Congratulations to our very own Vo Kha Quoc Hoang from SLT - Logistic division under cbs Malaysia! You've 'configured' yourself for success! Enjoy your prize and keep on 'coding' great work!\""
   },
   {
     "Name":"Wee Jee Jeng",
@@ -2418,7 +2418,7 @@ const ai_reasons = [
     "Gender":"Female",
     "Nationality":"Malaysian",
     "Division":"Partner Management",
-    "Reason":"\"Lucky Charm Alert!\n\nWe're thrilled to announce our superstar Asma' Binti Mohamed Habib as the lucky draw winner! Congratulations, Asma'! You've 'coded' your way to a fantastic prize. Cheers to you from all of us at CBS Consulting!\""
+    "Reason":"\"Lucky Charm Alert!\n\nWe're thrilled to announce our superstar Asma' Binti Mohamed Habib as the lucky draw winner! Congratulations, Asma'! You've 'coded' your way to a fantastic prize. Cheers to you from all of us at cbs Consulting!\""
   },
   {
     "Name":"Raja Azizul Bin Raja Anuar",
